@@ -12,12 +12,6 @@ env:
   IMAGE_NAME: jenkins-image
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code into the Go module directory
-      uses: actions/checkout@v2
-      
   push:
     runs-on: ubuntu-latest
     steps:
