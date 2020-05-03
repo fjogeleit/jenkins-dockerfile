@@ -8,6 +8,9 @@ on:
     tags:
       - v*
 
+    paths:
+      - Dockerfile
+
 env:
   IMAGE_NAME: jenkins-image
 
